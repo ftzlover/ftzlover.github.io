@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/wall.css">
 	<link rel="stylesheet" type="text/css" href="css/button.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
 	
     <style type="text/css">
         body, html {
@@ -140,24 +141,7 @@
     </style>
 </head>
 <body>
-	<script>
-!function(n) {
-    var e = n.document,
-    t = e.documentElement,
-    i = 640,
-    d = i / 100,
-    o = "orientationchange" in n ? "orientationchange": "resize",
-    a = function() {
-        var n = t.clientWidth || 320;
-        n > 640 && (n = 640),
-        t.style.fontSize = n / d + "px"
-    };
-    e.addEventListener && (n.addEventListener(o, a, !1), e.addEventListener("DOMContentLoaded", a, !1))
-} (window);
-</script>
-————————————————
-版权声明：本文为CSDN博主「JspFnta」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/Fredrik/article/details/81557433
+
 <div id="main" class="wall">
     <div class="result-btn">
 	  <a href="index1.html" target="_self">心中有爱</a>
